@@ -1,0 +1,57 @@
+.TODOlist__navigation-bar
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TODOlist__body
+{
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+  gap: 64px;
+
+}
+
+.TODOlist__body_add-new-task
+{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.TODOlist__body_current-task
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.TODOlist__body_previous-task
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.TODOlist__body_add-new-task_input{
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.TODOlist__body_add-new-task_input_text-field{
+  display: flex;
+  box-sizing: border-box;
+  padding: 16px;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 16px;
+  width: 100%;
+  height: 60px;
+  opacity: 0.7;
+}

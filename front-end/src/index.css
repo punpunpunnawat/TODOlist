@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap');
+
+body {
+  background: linear-gradient(297deg, rgba(0, 0, 255, 0.05) 0%, rgba(255, 0, 0, 0.05) 100%), #292929;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Instrument Sans', sans-serif; /* Use Google Font here */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bar-style {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(90deg, rgba(0, 0, 0, 0.30) 0%, rgba(102, 102, 102, 0.00) 100%);
+  backdrop-filter: blur(2px);
+
+  display: flex;
+  height: 60px;
+  padding: 0px 32px;
+  align-items: center;
+}
+
+.text-style {
+  background: linear-gradient(
+    to bottom right, 
+    rgba(255, 200, 200),
+    rgba(200, 200, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background {
+  background: linear-gradient(297deg, rgba(0, 0, 255, 0.05) 0%, rgba(255, 0, 0, 0.05) 100%), #292929;
+}
+
+h2 {
+  display: flex;
+  font-size: 20px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: normal;
+  unicode-bidi: isolate;
+}
+
+.opacity05
+{
+  opacity: 0.5;
+}

@@ -1,0 +1,11 @@
+.DONEitem{
+  display: flex;
+  width: 100%;
+  gap: 16px;
+
+}
+.DONEitem__name{
+  display: flex;
+  border-radius: 16px;
+  flex: 1;
+}
